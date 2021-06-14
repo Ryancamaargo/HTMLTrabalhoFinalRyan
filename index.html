@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RyanFlix - Page inicial</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="meucss.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="h5" style=" color: white;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+            <div class="align-center" id="logomarca">
+                <img class="logo"
+                    src="img/kisspng-art-film-logo-cinema-clip-art-movie-logo-cliparts-5ab587fb1000c4.1651552415218462670656-removebg-preview.png"
+                    width="30" height="24" class="d-inline-block align-text-top">
+                Ryanflix
+            </div>
+        </a>
+
+        <div class="collapse navbar-collapse navteste align-items-center" id="navbarTogglerDemo03">
+            <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Pagina inicial</a>
+                </li>
+
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle " id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Classificações
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                        <a class="dropdown-item" href="series.html">Séries</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="filmes.html">Filmes</a>
+                    </div>
+                </li>
+
+                <li><a class="nav-link" href="sobre.html">Sobre</a></li>
+            </ul>
+
+            <div class="navbar align-items-center w-100" id="navbarDropdownMenuLink">
+                <ul class="navbar-nav mx-auto text-md-center ">
+                    <li class="nav-item">
+                        <a href="login.html"><i class="fa fa-user my-2 my-sm-0 text-center"></i>
+                            Login/
+                        </a>
+                        <a href="meucadastro.html"><i class="fa fa-address-card my-2 my-sm-0"></i>
+                            Meu cadastro
+                        </a>
+
+                        <a href="cadastrar.html"><i class="fa fa-user-plus my-2 my-sm-0"></i>
+                            Cadastrar-se
+                        </a>
+
+                    </li>
+
+                </ul>
+
+
+                <ul class="nav navbar-nav" id="navbarDropdownMenuLink" >
+                    <form class="form-inline">
+
+                        <input class="form-control mr-sm-2" type="search" placeholder="Consultar..."
+                            aria-label="Search">
+                        <button class="btn btn-outline-info my-2 my-sm-0" type="submit"><i
+                                class="fa fa-search"></i></button>
+                    </form>
+
+                    <form class="form-inline">
+
+                        <a href="carrinho.html"><i class="fa fa-shopping-cart my-2 my-sm-0 " style="padding:10px"></i>
+
+                        </a>
+
+                    </form>
+
+                    <li class="form-inline nav-item text-center " style="margin-left: 25px; font-size: 15px;">
+                        Bem vindo(a), <span id="nomeusuariologado">Logar-se</span>
+                    </li>
+
+
+
+                </ul>
+
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="container-fluid">
+
+
+        <div style="margin-top: 100px" id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel2" data-slide-to="1"></li>
+                <li data-target="#carousel3" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div href="produto1.html" class="carousel-item active tambanner">
+                    <div class="carousel-caption d-none d-md-block letrabanner" style="color: white">
+                        <h1>Mulher Maravilha</h1>
+                        <p>Uma super-heroína guerreira de origem greco-romana</p>
+                        <p><a class="btn btn-lg btn-dark" href="produto1.html" role="button">Saiba mais...</a></p>
+                    </div>
+                    <img class="d-block w-100 transparentbanner"
+                        src="https://cdn.saocarlosagora.com.br/upload/dn_arquivo/2021/02/ww84-poster-1068x536-1.jpg"
+                        alt="First slide">
+                </div>
+                <div class="carousel-item tambanner">
+                    <div class="carousel-caption d-none d-md-block letrabanner" style="color: white">
+                        <h1>Vikings</h1>
+                        <p>A série acompanha a saga dos navegadores nórdicos que exploram - e conquistam - novos
+                            territórios nos tempos medievais...</p>
+                        <p><a class="btn btn-lg btn-dark" href="series.html" role="button">Saiba mais...</a></p>
+                    </div>
+                    <img class="d-block w-100 transparentbanner"
+                        src="https://i1.wp.com/decom.ufsm.br/redajor1/files/2017/07/vikings.jpg?fit=1200%2C625&ssl=1"
+                        alt="Second slide">
+                </div>
+                <div class="carousel-item tambanner">
+                    <div class="carousel-caption d-none d-md-block letrabanner" style="color: white">
+                        <h1>Stranger things</h1>
+                        <p>Crianças mergulham em um extraordinário mistério, envolvendo um experimento secreto do
+                            governo...</p>
+                        <p><a class="btn btn-lg btn-dark" href="series.html" role="button">Saiba mais...</a></p>
+                    </div>
+                    <img class="d-block w-100 transparentbanner"
+                        src="https://mundoconectado.com.br/uploads/chamadas/strangerthings-rpg-netflix.jpg"
+                        alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div style=" font-family: Stencil Std, fantasy;">
+            <h1>Filmes</h1>
+            <span style="font-family: Comic Sans MS, Comic Sans, cursive">Ação, romance, comédia, fantasia... Ryanflix
+                tem tudo isso de sobra! Nossa coleção com títulos para
+                todos os gostos traz o que há de melhor do cinema.</span>
+        </div>
+        <div class="produtos  center">
+            <ul>
+                <li>
+                    <h3 class="produtos-titulo">Mulher Maravilha</h3>
+                    <a href="produto1.html"><img href="produto1.html"
+                            src="https://s1.1zoom.me/b5050/134/Wonder_Woman_hero_Wonder_Woman_(2017_film)_Gal_530333_600x800.jpg"
+                            id="imagem" class="produtos-img img card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <p class="produtos-descricao">1 hora</p>
+                        <h1 class="card-title pricing-card-title">R$<b class="produtos-preco">18.00</b></h1>
+                        <button class="btAdicionar btn btn-success" style="width:  70%; padding: 5px;"><i
+                                class="fa fa-cart-plus"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <h3 class="produtos-titulo">Coringa</h3>
+                    <a href="produto1.html"><img href="produto1.html" id="imagem"
+                            src="https://capricho.abril.com.br/wp-content/uploads/2019/10/coringa-joker-1.jpg?quality=85&strip=info&w=1024"
+                            class="produtos-img img card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <p class="produtos-descricao">1h e 30min</p>
+                        <h1 class="card-title pricing-card-title">R$<b class="produtos-preco">20.00</b></small></h1>
+                        <button class="btAdicionar btn btn-success" style="width:  80%; padding: 5px;"><i
+                                class="fa fa-cart-plus"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <h3 class="produtos-titulo">Vingadores Ultimato</h3>
+
+                    <a href="produto1.html"><img href="produto1.html"
+                            src="https://img.elo7.com.br/product/original/2678FD7/cartaz-poster-vingadores-ultimato-filme-marvel-avengers-ultimato.jpg"
+                            class="produtos-img img card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <p class="produtos-descricao">3 horas</p>
+                        <h1 class="card-title pricing-card-title">R$<b class="produtos-preco">98.00</b></small></h1>
+
+
+                        <button class="btAdicionar btn btn-success" style="width:  70%; padding: 5px;"><i
+                                class="fa fa-cart-plus"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <h3 class="produtos-titulo">Star Wars</h3>
+                    <a href="produto1.html"><img href="produto1.html"
+                            src="https://s1.1zoom.me/b5035/933/Warriors_Star_Wars_The_Last_Jedi_Kylo_Ren_Adam_537764_600x800.jpg"
+                            class="produtos-img img card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <p class="produtos-descricao">2 horas</p>
+                        <h1 class="card-title pricing-card-title">R$<b class="produtos-preco">48.00</b></small></h1>
+
+
+                        <button class="btAdicionar btn btn-success" style="width:  70%; padding: 5px;"><i
+                                class="fa fa-cart-plus"></i></button>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+
+
+        <div style=" font-family: Stencil Std, fantasy;">
+            <h1>Assista séries offline, ou baixe no seu dispositivo...</h1>
+        </div>
+
+
+
+
+
+        <div class="produtos  center">
+            <ul>
+                <li>
+                    <h3 class="produtos-titulo">Vikings</h3>
+                    <img class="produtos-img img"
+                        src="https://www.aoseugosto.com/wp-content/uploads/2021/01/Vikings-6a-Temporada-Completa-2019-Google-Drive-Torrent-Dublada-185x278.jpg">
+
+                    <div class="card-body">
+                        <p class="produtos-descricao">6 Temporadas</p>
+                        <h1 class="card-title pricing-card-title">R$<b class="produtos-preco">25.00</b></h1>
+                        <button class="btAdicionar btn btn-success" style="width:  70%; padding: 5px;"><i
+                                class="fa fa-cart-plus"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <h3 class="produtos-titulo">Peaky Blinders</h3>
+                    <img class="produtos-img img"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUeIwg90s6NzMa0ZZmU5rXRX2Qhtn1C6b6LQK14LZSmrNNFNQs">
+
+                    <div class="card-body">
+                        <p class="produtos-descricao">5 Temporadas</p>
+                        <h1 class="card-title pricing-card-title">R$<b class="produtos-preco">55.00</b></h1>
+
+                        <button class="btAdicionar btn btn-success" style="width:  70%; padding: 5px;"><i
+                                class="fa fa-cart-plus"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <h3 class="produtos-titulo">The last Kingtom</h3>
+                    <img class="produtos-img img"
+                        src="https://i0.wp.com/pipocamoderna.com.br/wp-content/uploads/2018/10/the-last-kingdom.jpg">
+
+                    <div class="card-body">
+                        <p class="produtos-descricao">4 Temporadas</p>
+                        <h1 class="card-title pricing-card-title">R$<b class="produtos-preco">45.00</b></h1>
+                        <button class="btAdicionar btn btn-success" style="width:  70%; padding: 5px;"><i
+                                class="fa fa-cart-plus"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <h3 class="produtos-titulo">Stranger things</h3>
+                    <img class="produtos-img img"
+                        src="https://images-na.ssl-images-amazon.com/images/I/71gcy+t6qpL.jpg">
+
+                    <div class="card-body">
+                        <p class="produtos-descricao">3 Temporadas</p>
+                        <h1 class="card-title pricing-card-title">R$<b class="produtos-preco">95.00</b></h1>
+
+                        <button class="btAdicionar btn btn-success" style="width:  70%; padding: 5px;"><i
+                                class="fa fa-cart-plus"></i></button>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+
+        <h1>Assista onde quiser, no computador, tablet, ou no celular</h1>
+
+
+        <div class="row ">
+            <div class="col-6">
+
+
+                <img class="img-fluid" alt="Imagem responsiva"
+                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
+            </div>
+            <div class="col-6">
+
+                <img class="img-fluid" alt="Imagem responsiva2"
+                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png">
+
+
+            </div>
+        </div>
+
+
+
+        <div class="jumbotron" style=" background-color: black">
+
+            <h1 class="display-3">Obrigado por nos visitar!</h1>
+            <h2>Tem muito mais esperando por você.</h2>
+            A Ryanflix tem um grande catálogo de filmes, documentários, séries, originais, premiados e muito
+            mais. Assista o quanto quiser, quando quiser.
+            <p class="lead">Escolha os melhores filmes da atualidade.</p>
+            <div class="text-center marca">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Compre conosco</a>
+            </div>
+
+
+            <p class="footer-top">
+                <a class="footer-top-a" href="#" style="color: white">Dúvidas? Entre em contato.</a>
+            </p>
+        </div>
+
+
+
+
+
+
+        <footer id="footer" class="footer-1">
+            <div class="bg-primary text-white d-flex-column ">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="widget  no-box  ">
+                                <h5 class="widget-title text-center">Institucional<span></span></h5>
+                                <p class="corParagrafo">
+                                    Since 2021
+                                </p>
+                                <p class="corParagrafo">
+                                    RyanLuna.ltda
+                                </p>
+                                <p class="corParagrafo">
+                                    Fundador: Ryan
+                                </p>
+
+
+                                <p class="corParagrafo">
+                                    Rua Paraná número 01
+                                </p>
+                                <p class="corParagrafo">
+                                    Cnpj: 60.915.378/0001-47
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="widget no-box">
+                                <h5 class="widget-title text-center">Dúvidas/ Ajuda<span></span></h5>
+                                <p class="corParagrafo">
+                                    15-998429504
+                                </p>
+                                <p class="corParagrafo">
+                                    Suporte via Anydesk
+                                </p>
+                                <p class="corParagrafo">
+                                    ryanflix@gmail.com
+                                </p>
+
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="widget no-box  text-center">
+
+                                Visão
+                                <p class="corParagrafo">
+                                    Ser referencia nacional, gerando empregos e ajudando a todos.
+                                </p>
+                                Valor
+                                <p class="corParagrafo">
+                                    Respeito, Ética, Inclusão social e Responsabilidade legal.
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="widget no-box ">
+                                <h5 class="widget-title text-center"> Redes Sociais<span></span></h5>
+                                <div style=" text-align: center;">
+                                    <button type="submit" class="btn btn-outline-secondary"><i
+                                            class="fa fa-instagram"></i></i></button>
+                                    <button type="submit" class="btn btn-outline-secondary"><i
+                                            class="fa fa-facebook-square"></i></button>
+                                    <button type="submit" class="btn btn-outline-secondary"><i
+                                            class="fa fa-linkedin-square"></i></i></button>
+                                    <button type="submit" class="btn btn-outline-secondary"><i
+                                            class="fa fa-youtube-square"></i></i></button>
+                                    <button type="submit" class="btn btn-outline-secondary"><i
+                                            class="fa  fa-envelope-o"></i></i></button>
+                                </div>
+                                <h5 class="widget-title text-center"> Formas de pagamento<span></span></h5>
+
+                                <img class="img-fluid" alt="Imagem_formapagament"
+                                    src="https://cdn.awsli.com.br/1063/1063959/arquivos/bannerpagpagarme.png">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="footer-copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <p style="padding-top: 10px;"> Ryanflix 2021 | Todos os direitos reservados. Pato Branco
+                                    - PR (2021).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+
+
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="js/pegarProduto.js"></script>
+
+</body>
+
+</html>
